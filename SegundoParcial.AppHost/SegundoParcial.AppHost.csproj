@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.2.4">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>473a3588-31e4-4e31-9515-2816f157a349</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SegundoParcial.Backend\SegundoParcial.Backend.csproj" />
+    <ProjectReference Include="..\SegundoParcial.Consumer\SegundoParcial.Consumer.csproj" />
+  </ItemGroup>
+
+</Project>

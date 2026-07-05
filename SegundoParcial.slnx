@@ -1,5 +1,8 @@
 <Solution>
   <Project Path="SegundoParcial.Abstractions/SegundoParcial.Abstractions.csproj" Id="05c1fee2-5b0b-43eb-8cf8-11736200adb2" />
+  <Project Path="SegundoParcial.AppHost/SegundoParcial.AppHost.csproj" Id="9aba4836-df30-4bf3-b7d8-f56a666f7a01" />
   <Project Path="SegundoParcial.Backend/SegundoParcial.Backend.csproj" />
+  <Project Path="SegundoParcial.Consumer/SegundoParcial.Consumer.csproj" />
   <Project Path="SegundoParcial.Data/SegundoParcial.Data.csproj" />
+  <Project Path="SegundoParcial.ServiceDefaults/SegundoParcial.ServiceDefaults.csproj" />
 </Solution>
