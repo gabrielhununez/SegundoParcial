@@ -19,7 +19,7 @@ public class DBContext : DbContext
                 .AddUserSecrets<DBContext>()
                 .Build();
             var connectionString = config.GetConnectionString("conexion-db");
-            optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+            optionsBuilder.UseSqlServer(connectionString);
         }
     }
 }

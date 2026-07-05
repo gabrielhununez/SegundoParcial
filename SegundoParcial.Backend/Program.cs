@@ -7,9 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 var connectionString = builder.Configuration.GetConnectionString("CONNECTIONSTRING");
-var serverVersion = new MySqlServerVersion(new Version(8, 0, 31));
-builder.Services.AddDbContext<DBContext>(options =>
-    options.UseMySql(connectionString, serverVersion));
+builder.Services.AddDbContext<DBContext>(options => options.UseSqlServer(connectionString));
+
 
 // Add services to the container.
 builder.Services.AddScoped<IAnimalRepository, AnimalRepository>();
