@@ -5,4 +5,5 @@
   <Project Path="SegundoParcial.Consumer/SegundoParcial.Consumer.csproj" />
   <Project Path="SegundoParcial.Data/SegundoParcial.Data.csproj" />
   <Project Path="SegundoParcial.ServiceDefaults/SegundoParcial.ServiceDefaults.csproj" />
+  <Project Path="XUnitSegundoParcial/XUnitSegundoParcial.csproj" Id="a53d2ceb-105d-49e7-af60-899889e0b0da" />
 </Solution>
